@@ -1,30 +1,7 @@
 puts "Welcome what would you like to get?"  
-
-# def addition(number_1, number_2)
-# return number_1 + number_2
-# end 
-
-# def subtraction(number_1,number_2)
-#     return number_1 - number_2
-# end 
-
-# def division(number_1,number_2)
-#     return number_1 / number_2
-# end
-
-# def multiplication(number_1,number_2)
-#     return number_1 * number_2
-# end
-
-#VARIABLES FOR NOODLES, MEATBALLS, SAUCE, CHEESE 
-  #   noodles = 1,
-  #   meatballs = 2,
-  #   sauce = 3,
-  #   cheese = 4
-  # }
-puts "Choose your first item, noodles, meatballs, sauce, cheese"
+puts "Choose your first number, 1-4"
 first_number = gets.chomp 
-puts "Choose your second item, noodles, meatballs, sauce, cheese"
+puts "Choose your second number, 1-4"
 second_number = gets.chomp 
 
 # puts "Please select a function: addition, subtraction, multiplication, subtraction."
@@ -42,6 +19,19 @@ elsif first_number == "noodles" && second_number == "meatballs"
 puts "you made meaty pasta"
 elsif first_number == "meatballs" && second_number == "cheese"
 puts "you made cheesy meatballs"
+
+puts "how many do you want"
+answer = gets.chomp 
+def multiplication(user_amount)
+  price = user_amount * 5 
+  return = "that costs 20"
+end 
+
+puts would you like to add more answers
+
+  if answer = yes 
+    puts "how much"
+    cart = more + amount 
 
 
 
