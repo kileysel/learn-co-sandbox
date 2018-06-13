@@ -58,6 +58,8 @@ puts "Who do you want to snapchat?"
 
 jessica=Snap.new("#{username}", "#{friend}", "#{password}", "#{email}", "#{age}")
 puts "Thank you for creating a snapchat. Your username is #{jessica.my_username}, your password is #{password}, the email you used is #{email}, and your age is #{age}."
+sleep(1.5)
+puts "#{jessica.their_username.upcase} just snapped you back"
 # puts jessica.my_username
 # puts jessica.password
 # puts jessica.email
